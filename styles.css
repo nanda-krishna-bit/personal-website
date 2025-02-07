@@ -1,0 +1,90 @@
+/* General Body Styling */
+body {
+    background: #fff; /* Fully white background */
+    color: #000; /* Default text color */
+    padding-top: 56px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-family: 'Dancing Script', cursive; /* Cursive font */
+    font-size: 5rem; /* Increase size as needed */
+    margin: 0; /* Remove default margin if necessary */
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 4rem 2rem; /* Consistent spacing for all sections */
+}
+
+h1, h2, h3 {
+    color: #66bfbf; /* Heading color for all sections */
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem; /* Paragraph styling */
+}
+
+/* Card Styling */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Hover effect on cards */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #66bfbf; /* Matches heading color for consistency */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Smaller font size for mobile screens */
+    }
+}
+/* Scroll adjustments */
+html {
+    scroll-padding-top: 70px;
+}
+
+@media (min-width: 768px) {
+    html {
+        scroll-padding-top: 100px;
+    }
+}
+
+section {
+    margin-bottom: 6cm; /* Adds a 6cm gap between each section */
+}
+
+.round-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%; /* Makes the image round */
+    border: 4px solid #fff; /* Optional: Adds a border for a clean look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
